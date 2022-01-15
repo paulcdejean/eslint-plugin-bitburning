@@ -1,7 +1,7 @@
 {
-  "name": "eslint-plugin-guards",
+  "name": "eslint-plugin-bitburning",
   "version": "0.0.0",
-  "description": "Enforces guard statements at the beginning of functions.",
+  "description": "Safer and easier bitburner scripts.",
   "keywords": [
     "eslint",
     "eslintplugin",
