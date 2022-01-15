@@ -5,10 +5,11 @@ Various eslint rules I wrote to reduce bugs in my bitburner scripts.
 Current TODOS:
 
 - [x] Require async functions (excluding main) to end with Async
-- [ ] Require await before NS functions: hack, grow, weaken, sleep, prompt, wget, scp, write, writePort
+- x ] Require await before NS functions: hack, grow, weaken, sleep, prompt, wget, scp, write, writePort
 - [ ] Require await before async functions (functions ending with Async)
 - [ ] Require guards
 - [ ] Require constants in constants.js to use SCREAMING_SNAKE_CASE
+- [ ] Fix things automatically that can be fixed automatically.
 
 
 ## Installation
