@@ -11,8 +11,6 @@ Current TODOS:
 - [x] Require that js files export a function with their filename
 - [x] Automatically fix js files that are missing a function with their filename
 - [x] Automatically add guard statements
-- [ ] Require ns argument is documented with type NS and description NS
-- [ ] Automatically import undefined errors from errors
 - [ ] Require constants in constants.js to use SCREAMING_SNAKE_CASE
 
 ## Installation
