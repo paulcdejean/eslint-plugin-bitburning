@@ -8,7 +8,7 @@ Current TODOS:
 - [x] Require await before NS functions: hack, grow, weaken, sleep, prompt, wget, scp, write, writePort
 - [x] Require await before async functions (functions ending with Async)
 - [x] Require guards
-- [ ] Require that js files export a function with their filename
+- [x] Require that js files export a function with their filename
 - [ ] Automatically fix js files that are missing a function with their filename
 - [ ] Automatically add guard statements
 - [ ] Require constants in constants.js to use SCREAMING_SNAKE_CASE
