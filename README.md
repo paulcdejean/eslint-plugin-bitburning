@@ -54,6 +54,22 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-* Fill in provided rules here
+### await-async-functions
 
+Requires that functions ending in Async are awaited. I know there's a lot more you can do with promises besides awaiting them, but in the context of bitburner it's rare.
 
+### await-ns-functions
+
+Requires that ns functions that return promises are awaited. Since the game makes that mandatory.
+
+### export-filename
+
+Requires that a file define a function or class that matches its filename.
+
+### require-async-suffix
+
+Requires that async functions end with Async. This helps prevent dangling promises as we're not using typescript.
+
+### require-guards
+
+Requires that all arguments without default values are checked for undefined. This helps prevent errors when you call functions with the wrong number of arguments.
